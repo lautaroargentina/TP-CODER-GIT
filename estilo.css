@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: orangered;
+    background: radial-gradient(pink,red,orange);
     font-size: 25px;
     display: flex;
     justify-content: space-between;
