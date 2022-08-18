@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: orangered;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+
+
+.logo{
+    color:whitesmoke;
+}
+
+.logo:hover{
+    color: grey;
+}
+main{
+    height: 500px;
+    background-image: url(main.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.call{
+    width: 50%;
+    color: rgb(25, 111, 185);
+    border: 2px solid black;
+    background-color: rgb(169, 169, 169, 0.5);
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.call a {
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.call p {
+    margin-bottom: 15px;
+}
+
+.call a:hover {
+    background-color: yellowgreen;
+    transition: all 0.8s;
+}
+h1{
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aqua;
+    color: grey;
+    text-shadow: 1px 1px 5px black;
+}
+
+/* .nosotros{
+    display: flex;
+} */
+
+
+.nleft{
+    background-image: url(nosotros.jpg);
+    height: 350px;
+    background-size: cover; 
+    
+}
+
+.nright{
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px; 
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.nright h3{
+    font-family: fantasy;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.nright p{
+    
+}
+
+.galeria{
+    font-family: fantasy;
+    color: white;
+    width: 100%;
+    background-color: grey;
+    display: grid;
+    padding: 15px;
+    /* min-height: 100vh; */
+    /* este minheight es importante para que al menos siempre cubra el 100% de la pantalla con el diseño, como tengo muchas cosas lo dejo comentado */
+    grid-gap: 10px;
+}
+
+.item{
+    height: 150px;
+    width: 250px;
+    background-color: lightcoral;
+    border: 2px solid black;
+    width: 100%;
+    box-shadow: 1px 1px 10px black;
+    filter: grayscale(100%);
+    border-radius: 5px;
+    
+}
+
+.item:hover{
+    transform: scale(1.1);
+    transition: all 0.8s;
+    filter: grayscale(0%);
+    /* transform, lo eleva cuando posicion el click
+    encima, y transition hace que llegue al tope
+    de una manera mas suave. 0.8 segundos tarda */
+}
+
+.item1{
+    background-image: url(fedpat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.item2{
+    background-image: url(la2da.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.item3{
+    background-image: url(rivadavia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.item4{
+    background-image: url(rus.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;    
+}
+
+footer i {
+    letter-spacing: 40px;
+    color: green;
+    font-size: 75px;
+    margin-top: 25px;
+}
+
+footer i:hover{
+    transform: scale(1.2);
+    transition: all 0.8s;
+}
+
+@media only screen and (min-width:480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2,1fr)
+    }
+
+   
+
+    
+
+    
+
+}
+
+@media only screen and (min-width:650px){
+     .galeria{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(1,1fr)
+        
+    }
+
+   
+
+} 
+

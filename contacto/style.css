@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Open+Sans:wght@300;400;500&display=swap');
+
+/*font-family: 'Comforter', cursive;
+font-family: 'Open Sans', sans-serif;*/ 
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;	
+}
+
+body{
+	
+	
+	background-image: url(../img/fondo.jpg);
+}	
+
+html {
+	scroll-behavior: smooth;	
+}
+
+
+.margin-top{
+	margin-top: 3rem;
+}
+
+.marginLeft{
+	margin-left: 35rem;
+	margin-top: 2rem;
+	font-size: 1rem;
+	font-weight: 500;
+
+}
+
+/*HEADER*/ 
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background:linear-gradient( #CFDEE7,#314450);
+	height: 130px;
+	margin-top: 2rem;
+	position: sticky;
+	top: 0px;
+}
+
+
+
+.imagenhome {
+	width: 100%;
+	margin-top: 5rem;
+}
+
+.divLogo{
+	width: 30%;
+}
+
+.divLogo img{
+	width: 100%;
+}
+	
+.menu {
+	display: flex;	
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+nav{
+	width: 50%;		
+}
+
+ul li {
+	list-style: none;
+	
+}
+	ul li a {
+		color: black;
+		text-decoration: none;	
+		font-size: 1.1rem;
+		font-weight: 500;
+	}
+
+/*MAIN*/
+
+/*SECTION  H1*/ 
+
+
+
+h1{
+	font-family: 'Comforter', cursive;
+	font-size: 3rem;
+}
+
+.principal{	
+	margin: 3rem; 
+	padding: 30px;
+	border: double 2px blueviolet;
+	overflow: auto;
+}
+
+/* FIN SECTION  H1*/ 
+
+/* INICIA SECTION H2 EMPRESAS*/ 
+
+
+h2{
+	font-family: 'Comforter', cursive;
+	font-size: 3rem;
+	text-align: center;
+	margin: 3rem 0;
+}
+
+.empresasB{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.empresasB article{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	width: 25%;
+	
+}
+
+	.empresasB article img{
+		width: 33%;
+		height: 15vh;		
+	}
+
+/* FIN SECTION H2 EMPRESAS*/ 
+
+/* INICIA SECTION 3 CONTACTO */ 
+
+
+input{
+	width: 100%;
+	height: 2rem;
+	margin-bottom: 1rem;
+}		
+
+form{	
+	width: 50%;
+	margin: 0 auto;	
+
+}
+
+.contacto{
+	margin: 3rem; 
+	padding: auto;	
+}
+
+button{
+	width: 35%;
+	margin-bottom: 1rem;
+	height: 2rem;
+}
+
+.enviar {
+	background: #4472CA;
+}
+
+.borrar {
+	background: orangered;
+	margin-right: 11rem;
+}
+
+/* TERMINA SECTION 3 CONTACTO */ 
+
+/* INICIA MAPA */ 
+
+
+.sectionC {
+	width: 100%;
+	height: 400px;
+}
+
+/* TERMINA MAPA */ 
+
+
+/* FOOTER */ 
+
+.footer {
+	margin-top: 3rem;
+	background:linear-gradient( #CFDEE7,#314450);
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div{
+	display: flex;
+	justify-items: space-between;
+}
+
+/* TERMINA FOOTER */ 
+
+/* COTIZA TU SEGURE */ 
+
+
+.sectionB{
+	width: 50%;
+	height: auto;	
+	margin-left: 300px;
+	padding: 30px;
+	border: dashed 2px grey;
+	overflow: auto;
+	
+	}
+
+fieldset {
+		width: 100%;
+		margin: 1rem;
+
+}
+
+/* TERMINA TU SEGURE */
+
+
+/* NOVEDADES */ 
+
+.TextoTitulo{
+	font-family: 'Comforter', cursive;
+	font-size: 3rem;
+	text-align: center;
+	margin: 3rem 0;
+}
+
+
+
+
+/* TERMINA NOVEDADES */ 
+
+/* DENUNCIA TU SINIESTRO */
+
+
+
+
+	/* TERMINA DENUNCIA TU SINIESTRO */ 

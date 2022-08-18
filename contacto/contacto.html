@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tus asesores de seguros</title>
+	<link rel="shortcut icon" href="../img/FAVICONLL.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="../estilo.css">
+
+</head>
+<body>
+	<header>
+        <div class="logo">LL Asesores de Seguros            
+        </div>
+        <ol  class="navv">
+            <li>
+                <a href="/contacto/contacto.html">Contacto</a>
+            </li>
+            <li>
+                <a href="/contacto/contacto.html">Contacto</a>
+            </li>
+            <li>
+                <a href="/contacto/contacto.html">Contacto</a>
+            </li>
+        </ol>
+    </header>
+	<!-- termina header -->
+	<main> </main>
+		<section>
+			<form action="envio.php" id="contacto">
+				<fieldset>
+					<legend>CONTACTO</legend>
+					<label for="nombre">Nombre y apellido</label>
+			    	<input type="text" id="nombre" placeholder="Lautaro Leiva">
+			    	<br>					
+					<label for="mail">Mail</label>
+					<input type="text" id="mail" placeholder="aaaa@mail.com">
+					<br>			    				    
+					<label for="estado civil">Estado Civil</label>
+					<select name="estado civil" id="estado civil">
+						<option value="Soltero/a">Soltero/a</option>
+						<option value="Casado/a">Casado/a</option>
+						<option value="Viudo/a">Viudo/a</option>									
+					</select>
+					<br>					
+					<label for="celular">celular</label>
+					<input type="number" id="celular" placeholder="2225555555">		
+					<br>					
+					<label for="fecha">fecha de nacimiento</label>
+					<input type="date" id="fecha" placeholder="DD/MM/AAAA">	
+					<br>							
+				</fieldset>
+				<br>
+				<fieldset>
+					<legend>Desea recibir Newsletter?</legend>
+					<label for="NEWSLETTER">SI</label>
+					<input type="checkbox" id="NEWSLETTER" value="SI">	
+					<br>
+					<label for="SIN NEWSLETTER">NO</label>
+					<input type="checkbox" id="SIN NEWSLETTER" value="NO">	
+					<br>
+				</fieldset>				
+				<br>
+				<fieldset>
+					<label for="comentarios">Comentarios</label>
+					<br>
+					<textarea name="" id="comentarios" cols="35" rows="10"></textarea>
+				<br>
+			</form>
+			<br>
+			<br>
+			<input type="submit" value="Enviar">
+			<br>
+			<input type="reset" value="Cancelar">
+			<br>
+			<br>
+			<label for="mensaje">A la brevedad uno de nuestros asesores se estará comunicando</label>
+		</section>
+		<!-- termina formulario -->
+	<footer>
+		<p>Gracias por elegirnos</p>
+		<p>Sitio desarrollado por LL</p>
+		<div class="redes">
+				<!-- al bajarlo de fontawesome, los logos los toma como caracteres/letras por eso en el css puedo darle forma/estilo con los mismos formatos que con las letras -->
+			<i class="fa-brands fa-square-whatsapp"></i>
+			<i class="fa-brands fa-facebook"></i>
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-square-instagram"></i>	
+		</div>
+	</footer>
+	<!-- termina pie de pagina -->	
+</body>
+</html>
